@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1522779239 "resume-zh_CN.tex" "resume-zh_CN.pdf" "resume-zh_CN" 1522779242
+["pdflatex"] 1522809788 "resume-zh_CN.tex" "resume-zh_CN.pdf" "resume-zh_CN" 1522809792
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -142,19 +142,19 @@
   "cv/projects.tex" 1522747194 3683 913a210a87680037c66d39b933f35522 ""
   "cv/publications.tex" 1522735361 329 0f7d710e08baa36b72a82335b882ecd8 ""
   "cv/research.tex" 1522745237 999 24368a0392961f86897a5514edf025ce ""
-  "cv/skills.tex" 1522742991 742 66ad971e48d5a2f681be7ea49ea1cb92 ""
+  "cv/skills.tex" 1522809775 714 844edcd4af4e6647e6cfcdaf02b49ca4 ""
   "cv/work.tex" 1522745170 1010 52b0afde89bedbbcacba8233076608f3 ""
   "fontawesome.sty" 1475881798 2828 ec82d2185059d2978744ff07b8dadd99 ""
   "fontawesomesymbols-generic.tex" 1475881798 33234 a3a3e12d9315f667a3e24bd6b3d6058b ""
   "fontawesomesymbols-xeluatex.tex" 1475881798 45782 7166bfdff927bad3f81e302543d76c90 ""
   "linespacing_fix.sty" 1475881798 928 d7b2ee806f776f17eb0e9f4ff455a31b ""
-  "resume-zh_CN.aux" 1522779241 4332 44a3e739b1bfe4f143f6754c22333ee9 ""
-  "resume-zh_CN.out" 1522779241 2184 434a76a222745d0fb51512e714377441 ""
-  "resume-zh_CN.tex" 1522779204 940 85e5f232adbc032d07747a828d2b16bc ""
+  "resume-zh_CN.aux" 1522809791 4332 8b17fd5ef6bc146986d762b995a974dd ""
+  "resume-zh_CN.out" 1522809791 2184 39f3a4c90e33958e69fe084d5a825ff2 ""
+  "resume-zh_CN.tex" 1522809639 940 f71fdc33ff554cdc24400a6000f376ff ""
   "resume.cls" 1496121671 3441 b9fb5be333a1ba64b4f67f88f0f7e5a5 ""
   "zh_CN-Adobefonts_external.sty" 1475881798 1117 abbefe17b918f7a0071a2b71f38c0b7c ""
   (generated)
   "resume-zh_CN.out"
   "resume-zh_CN.log"
-  "resume-zh_CN.aux"
   "resume-zh_CN.pdf"
+  "resume-zh_CN.aux"
