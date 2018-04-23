@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.6.30)  10 APR 2018 16:47
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.6.30)  23 APR 2018 08:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1705,10 +1705,42 @@ LaTeX Font Info:    Font shape `EU1/FontAwesome(0)/m/n' will be
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
 ))
-(./cv/work.tex) (./cv/publications.tex) (./cv/research.tex) (./cv/projects.tex
-[1
+(./cv/work.tex) (./cv/publications.tex) (./cv/research.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 3.
 
-]) (./cv/honors.tex) (./cv/extracurricular.tex) (./cv/skills.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@@underline' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hbox' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathsurround' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+) (./cv/projects.tex [1
+
+]) (./cv/honors.tex) (./cv/extracurricular.tex)
+(./cv/skills.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--11
 
  []
@@ -1722,12 +1754,12 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 33.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 33.
  ) 
 Here is how much of TeX's memory you used:
- 36012 strings out of 493706
- 707486 string characters out of 6145769
+ 36036 strings out of 493706
+ 707916 string characters out of 6145769
  736918 words of memory out of 5000000
- 38896 multiletter control sequences out of 15000+600000
- 4604 words of font info for 54 fonts, out of 8000000 for 9000
+ 38910 multiletter control sequences out of 15000+600000
+ 7356 words of font info for 65 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 69i,5n,71p,10542b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,5n,71p,10542b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume-zh_CN.pdf (2 pages).
