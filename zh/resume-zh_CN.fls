@@ -273,10 +273,10 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT cv/projects.tex
 INPUT cv/projects.tex
+INPUT cv/skills.tex
+INPUT cv/skills.tex
 INPUT cv/honors.tex
 INPUT cv/honors.tex
 INPUT cv/extracurricular.tex
 INPUT cv/extracurricular.tex
-INPUT cv/skills.tex
-INPUT cv/skills.tex
 INPUT resume-zh_CN.aux
