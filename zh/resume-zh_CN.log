@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.6.30)  9 SEP 2018 15:05
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.6.30)  15 SEP 2018 15:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1739,12 +1739,8 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 ) (./cv/projects.tex [1
 
-]) (./cv/skills.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--10
-
- []
-
-) (./cv/honors.tex) (./cv/extracurricular.tex) [2]
+]) (./cv/skills.tex) (./cv/honors.tex)
+(./cv/extracurricular.tex) [2]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 33.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 33.
  (./resume-zh_CN.aux)
