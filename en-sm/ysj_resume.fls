@@ -1,4 +1,4 @@
-PWD /Users/yanshengjia/GitHub/curriculum-vitae/en-singlepage
+PWD /Users/yanshengjia/GitHub/curriculum-vitae/en-sm
 INPUT /usr/local/texlive/2015/texmf.cnf
 INPUT /usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -12,6 +12,10 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/latexsym.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/latexsym.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/lipsum/lipsum.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/lipsum/lipsum.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/preprint/fullpage.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/preprint/fullpage.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/titlesec.sty
@@ -32,8 +36,6 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
