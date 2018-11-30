@@ -1,0 +1,197 @@
+\documentclass[letterpaper, 11pt]{article}
+
+\usepackage{latexsym}
+\usepackage{lipsum}
+\usepackage{enumitem}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\nofiles
+\pagestyle{empty}  
+
+\setlist[enumerate]{itemsep=0mm}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.1in}
+\addtolength{\topmargin}{-.6in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{\color{blue}}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-3pt}}
+  }
+}
+
+\newcommand{\resumeSingleSubItem}[1]{
+   \item\small{#1} \vspace{-3pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\projectSubheading}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-5pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-10pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+\newcommand{\name}[1]{
+  \centerline{\huge \textbf{#1}}
+  \vspace{1.25ex}
+}
+
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\name{SHENGJIA YAN}
+\centerline{(+86)15961887272 \textperiodcentered\ \href{mailto:sjyan1995@gmail.com}{sjyan1995@gmail.com} \textperiodcentered\ yanshengjia.com \textperiodcentered\ https://github.com/yanshengjia}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+    \resumeSubHeadingListStart
+        \resumeSubheading
+        {\href{http://www.seu.edu.cn/}{Southeast University (SEU)}}{2013.08 - 2017.06}
+        {B.E. in Computer Science;  GPA: 3.56/4.0}{Nanjing, China}
+    \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Working Experience}
+    \resumeSubHeadingListStart
+
+    \resumeSubheading
+        {\href{https://17zuoye.com}{17zuoye AI Research Group}}{2017.06 - Present}
+        {NLP Engineer}{Beijing, China}
+        \resumeItemListStart
+            \resumeSingleSubItem{Led a team of six to design and develop an automated essay enhancing system}
+            \resumeSingleSubItem{Built an automated essay score predictor based on Feature Engineering, Logistic Regression and LSTM, which reached best performance on Kaggle ASAP dataset.}
+            \resumeSingleSubItem{Developed a grammar checker based on Convolutional Seq2Seq and rules, which reached best F0.5-score on CoNLL2014 dataset. Reduced deep learning inference time by 50\% by utilizing Nvidia TensorRT.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+        {Knowledge Science and Engineering Lab @ Southeast University}{2014.10 - 2017.06}
+        {Research Assistant (advisor: Prof. \href{http://cse.seu.edu.cn/PersonalPage/qgl/index.htm}{Guilin Qi})}{Nanjing, China}
+        \resumeItemListStart
+            \resumeSingleSubItem
+                {Conducted data preprocessing using NLP approaches like spaCy to refine and analyze datasets.}
+            \resumeSingleSubItem
+                {Presented and implemented a Random Walk algorithm in Python based on Probabilistic Graphical Model to map the string mentions in web tables to their referent entities in a knowledge base.}
+            \resumeSingleSubItem
+                {Achieved 6\% increase in F1-score compared with the state-of-the-art scheme. The result was \textbf{published in [1, 2]}.}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{\href{https://yanshengjia.com/projects}{Selected Projects}}
+    \resumeSubHeadingListStart
+        \projectSubheading{Deep Learning Grammar Error Correction System}{2018.06}
+          \resumeItemListStart
+            \resumeSingleSubItem{Designed and developed a GEC system based on Facebook well-known Convolutional Seq2Seq paper and rule-based proofreading software LanguageTool.}
+            \resumeSingleSubItem{Supported grammar checking of more than 1000 tokens per second on single Tesla P100 GPU by optimizing deep learning inference with Nvidia TensorRT and ONNX.}
+          \resumeItemListEnd
+            
+        \projectSubheading{Crowdsourcing NLP Annotation Platform}{2018.05}
+          \resumeItemListStart
+            \resumeSingleSubItem{Designed a crowdsourcing annotation system with multiple quality control mechanisms based on annotation tool BRAT.}
+            \resumeSingleSubItem{Developed the frontend with HTML, Bootstrap and Javascript.}
+            \resumeSingleSubItem{Built the backend service using Tornado/Python, MongoDB and deployed on AWS.}
+          \resumeItemListEnd
+
+        \projectSubheading{DNN-Based Face Recognition System}{2017.03}
+          \resumeItemListStart
+            \resumeSingleSubItem{Implemented the neural network Backpropagation algorithm in C and Constructed a DNN to recognize human's face, pose and experssion.}
+            \resumeSingleSubItem{145+ stars and 180+ forks on GitHub}
+          \resumeItemListEnd
+
+        \projectSubheading{C-Minus Compiler}{2016.06}
+          \resumeItemListStart
+            \resumeSingleSubItem{Implemented the Regular-Expression-to-NFA converter, LR(1) parser and semantic analysis module in Python.}
+            \resumeSingleSubItem{Visualized the compiling process by ploting NFA, DFA, GOTO graphs with GraphViz.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+
+%-----------PUBLICATIONS-----------------
+\section{Publications}
+    \begin{enumerate}[leftmargin=*, itemsep=0pt]
+        \resumeSingleSubItem{``Entity Linking in Web Tables with Multiple Linked Knowledge Bases'', In: \textit{Semantic Technology: 6th Joint International Conference: JIST 2017}. pp. 239-253 \href{https://link.springer.com/chapter/10.1007/978-3-319-50112-3_18}{[pdf]}}
+        \resumeSingleSubItem{``A Method of Entity Linking in Web Tables based on Multiple Linked Knowledge Bases'', Chinese Patent, CN106503148A, 2017} 
+    \end{enumerate}\vspace{-10pt}
+
+
+%--------SKILLS------------
+\section{Skills}
+    \begin{itemize}[leftmargin=*, itemsep=0pt]
+        \resumeSingleSubItem{Languages: Python, C/C++, JavaScript, Markdown, \LaTeX}
+        \resumeSingleSubItem{Tools: Git, MongoDB, Tornado, Bootstrap, Qt}
+        \resumeSingleSubItem{Frameworks: TensorFlow, PyTorch, Scikit-Learn, Gensim, spaCy}
+    \end{itemize}\vspace{-10pt}
+
+%--------Honors------------
+\section{Honors}
+    \begin{itemize}[leftmargin=*, itemsep=0pt]
+        \resumeSingleSubItem{Computer Programming Contest (Jiangsu Province), Third Prize, 2016.11}
+        \resumeSingleSubItem{SEU Computer Programming Contest, Fourth Place, 2016.10}
+        \resumeSingleSubItem{Outstanding Project, SEU Student Research Training Program, 2016.05}
+    \end{itemize}\vspace{-10pt}
+
+%--------Extracurricular Activities------------
+\section{Extracurricular Activities}
+    \begin{itemize}[leftmargin=*, itemsep=0pt]
+        \resumeSingleSubItem{International Student Leadership Program, California Polytechnic State University, CA, USA, 2016.01}
+        \resumeSingleSubItem{Nanjing Youth Olympic Games Volunteers, National Olympic Committee Assistant, Nanjing, China, 2014.07}
+    \end{itemize}\vspace{-10pt}
+
+
+%-------------------------------------------
+\end{document}
