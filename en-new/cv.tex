@@ -8,10 +8,9 @@
 \usepackage{marvosym}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
-\usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
+\usepackage[urlcolor=green]{hyperref}
 
 \nofiles
 \pagestyle{empty}  
@@ -91,15 +90,15 @@
 \begin{document}
 
 \name{SHENGJIA YAN}
-\centerline{(+86)15961887272 \textperiodcentered\ \href{mailto:sjyan1995@gmail.com}{sjyan1995@gmail.com} \textperiodcentered\ yanshengjia.com \textperiodcentered\ https://github.com/yanshengjia}
+\centerline{(+86)15961887272 \textperiodcentered\ sjyan1995@gmail.com \textperiodcentered\ yanshengjia.com \textperiodcentered\ \href{https://github.com/yanshengjia}{https://github.com/yanshengjia}}
 
 
 %-----------EDUCATION-----------------
 \section{Education}
     \resumeSubHeadingListStart
         \resumeSubheading
-        {\href{http://www.seu.edu.cn/}{Southeast University (SEU)}}{2013.08 - 2017.06}
-        {B.E. in Computer Science;  GPA: 3.56/4.0}{Nanjing, China}
+        {Southeast University (SEU)}{Nanjing, China}
+        {B.E. in Computer Science and Technology;  GPA: 3.56/4.0}{2013.08 - 2017.06}
     \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------------
@@ -107,54 +106,54 @@
     \resumeSubHeadingListStart
 
     \resumeSubheading
-        {\href{https://17zuoye.com}{17zuoye AI Research Group}}{2017.06 - Present}
-        {NLP Engineer}{Beijing, China}
+        {AI Research Group, 17zuoye}{Beijing, China}
+        {NLP Engineer}{2017.06 - Present}
         \resumeItemListStart
-            \resumeSingleSubItem{Led a team of six to design and develop an automated essay enhancing system}
-            \resumeSingleSubItem{Built an automated essay score predictor based on Feature Engineering, Logistic Regression and LSTM, which reached best performance on Kaggle ASAP dataset.}
-            \resumeSingleSubItem{Developed a grammar checker based on Convolutional Seq2Seq and rules, which reached best F0.5-score on CoNLL2014 dataset. Reduced deep learning inference time by 50\% by utilizing Nvidia TensorRT.}
+            \resumeSingleSubItem{Lead a team of six to design and develop an automated essay enhancing system}
+            \resumeSingleSubItem{Built an automated essay scoring system based on Feature Engineering, Logistic Regression and LSTM, which reached the best performance on the Kaggle ASAP dataset}
+            \resumeSingleSubItem{Developed a grammar checker based on Convolutional Seq2Seq models and rules, which reached the best F0.5-score on CoNLL2014 datasets; Reduced the deep learning inference time by 50\% with Nvidia TensorRT}
         \resumeItemListEnd
 
     \resumeSubheading
-        {Knowledge Science and Engineering Lab @ Southeast University}{2014.10 - 2017.06}
-        {Research Assistant (advisor: Prof. \href{http://cse.seu.edu.cn/PersonalPage/qgl/index.htm}{Guilin Qi})}{Nanjing, China}
+        {Knowledge Science and Engineering Lab, Southeast University}{Nanjing, China}
+        {Research Assistant (advisor: Prof. Guilin Qi)}{2014.10 - 2017.06}
         \resumeItemListStart
             \resumeSingleSubItem
-                {Conducted data preprocessing using NLP approaches like spaCy to refine and analyze datasets.}
+                {Carried out data preprocessing using NLP approaches like spaCy to refine and analyze datasets}
             \resumeSingleSubItem
-                {Presented and implemented a Random Walk algorithm in Python based on Probabilistic Graphical Model to map the string mentions in web tables to their referent entities in a knowledge base.}
+                {Presented and implemented a Random Walk algorithm in Python based on the Probabilistic Graphical Model to map the string mentions in web tables to their referent entities in a knowledge base}
             \resumeSingleSubItem
-                {Achieved 6\% increase in F1-score compared with the state-of-the-art scheme. The result was \textbf{published in [1, 2]}.}
+                {Achieved a 6\% increase in F1-score compared to the latest published schemes. The result was \textbf{published in [1, 2]}}
         \resumeItemListEnd
     \resumeSubHeadingListEnd
 
 
 %-----------PROJECTS-----------------
-\section{\href{https://yanshengjia.com/projects}{Selected Projects}}
+\section{Selected Projects}
     \resumeSubHeadingListStart
         \projectSubheading{Deep Learning Grammar Error Correction System}{2018.06}
           \resumeItemListStart
-            \resumeSingleSubItem{Designed and developed a GEC system based on Facebook well-known Convolutional Seq2Seq paper and rule-based proofreading software LanguageTool.}
-            \resumeSingleSubItem{Supported grammar checking of more than 1000 tokens per second on single Tesla P100 GPU by optimizing deep learning inference with Nvidia TensorRT and ONNX.}
+            \resumeSingleSubItem{Designed and developed a GEC system based on Facebook well-known Convolutional Seq2Seq paper and rule-based proofreading software LanguageTool}
+            \resumeSingleSubItem{Supported grammar checkings of more than 1000 tokens per second on a single Tesla P100 GPU by optimizing deep learning inference with Nvidia TensorRT and ONNX}
           \resumeItemListEnd
             
         \projectSubheading{Crowdsourcing NLP Annotation Platform}{2018.05}
           \resumeItemListStart
-            \resumeSingleSubItem{Designed a crowdsourcing annotation system with multiple quality control mechanisms based on annotation tool BRAT.}
-            \resumeSingleSubItem{Developed the frontend with HTML, Bootstrap and Javascript.}
-            \resumeSingleSubItem{Built the backend service using Tornado/Python, MongoDB and deployed on AWS.}
+            \resumeSingleSubItem{Designed a crowdsourcing annotation system with multiple quality control mechanisms based on annotation tool Brat}
+            \resumeSingleSubItem{Developed the frontend with HTML, CSS, Bootstrap and Javascript}
+            \resumeSingleSubItem{Built the backend service using Tornado/Python, MongoDB and deployed on AWS}
           \resumeItemListEnd
 
         \projectSubheading{DNN-Based Face Recognition System}{2017.03}
           \resumeItemListStart
-            \resumeSingleSubItem{Implemented the neural network Backpropagation algorithm in C and Constructed a DNN to recognize human's face, pose and experssion.}
+            \resumeSingleSubItem{Implemented the neural network Backpropagation algorithm in C and Constructed a DNN to recognize human's faces, poses and emotions}
             \resumeSingleSubItem{145+ stars and 180+ forks on GitHub}
           \resumeItemListEnd
 
         \projectSubheading{C-Minus Compiler}{2016.06}
           \resumeItemListStart
-            \resumeSingleSubItem{Implemented the Regular-Expression-to-NFA converter, LR(1) parser and semantic analysis module in Python.}
-            \resumeSingleSubItem{Visualized the compiling process by ploting NFA, DFA, GOTO graphs with GraphViz.}
+            \resumeSingleSubItem{Implemented the Regular-Expression-to-NFA converter, LR(1) parser and semantic analysis module in Python}
+            \resumeSingleSubItem{Visualized the compiling process by ploting NFA, DFA, GOTO graphs with GraphViz}
           \resumeItemListEnd
 
     \resumeSubHeadingListEnd
@@ -163,7 +162,7 @@
 %-----------PUBLICATIONS-----------------
 \section{Publications}
     \begin{enumerate}[leftmargin=*, itemsep=0pt]
-        \resumeSingleSubItem{``Entity Linking in Web Tables with Multiple Linked Knowledge Bases'', In: \textit{Semantic Technology: 6th Joint International Conference: JIST 2017}. pp. 239-253 \href{https://link.springer.com/chapter/10.1007/978-3-319-50112-3_18}{[pdf]}}
+        \resumeSingleSubItem{``Entity Linking in Web Tables with Multiple Linked Knowledge Bases'', In proceedings of \textit{Joint International Semantic Technology Conference}. Springer, Cham, 2016: 239-253 \href{https://link.springer.com/chapter/10.1007/978-3-319-50112-3_18}{[pdf]}}
         \resumeSingleSubItem{``A Method of Entity Linking in Web Tables based on Multiple Linked Knowledge Bases'', Chinese Patent, CN106503148A, 2017} 
     \end{enumerate}\vspace{-10pt}
 
